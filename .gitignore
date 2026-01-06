@@ -1,2 +1,13 @@
-venv/
+# Segurança: Nunca subir arquivos de ambiente
 .env
+
+# Ambientes Virtuais
+venv/
+env/
+
+# Cache e temporários
+__pycache__/
+.ipynb_checkpoints/
+
+# Dados Locais (opcional, para não subir arquivos CSV grandes)
+avaliacao/*.csv
